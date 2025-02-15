@@ -6,6 +6,7 @@ body {
     padding: 100px 200px;
     box-sizing: border-box;
     height: 100vh;
+    width: 100wh;
     font-family: Outfit;
     background-color: #252525;
     color: #F3F3F3;
@@ -37,6 +38,7 @@ li {
 
 .left-hero>p {
     width: 460px;
+    font-family: Poppins;
 }
 
 .left-hero>h1 {
@@ -45,4 +47,56 @@ li {
     margin: 10px 0px;
     margin-left: -3px;
     color: #E9DCBE;
+}
+
+.right-hero>img {
+    height: 390px;
+    width: 390px;
+    border-radius: 50%;
+    border: 20px solid #C4C4C4;
+}
+
+@media only screen and (max-width: 427px) {
+    body {
+        margin: 0;
+        padding: 100px 50px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+
+    .right-nav {
+        display: none;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-hero {
+        margin-bottom: 50px;
+    }
+
+    .left-hero>p {
+        width: auto;
+        font-family: Poppins;
+        font-size: 16px;
+    }
+
+    .left-hero>h1 {
+        width: auto;
+        font-size: 46px;
+        color: #E9DCBE;
+    }
+
+    .right-hero>img {
+        height: 250px;
+        width: auto;
+        border-radius: 50%;
+        border: 10px solid #C4C4C4;
+    }
 }
