@@ -7,6 +7,8 @@ body {
     box-sizing: border-box;
     height: 100vh;
     font-family: Outfit;
+    background-color: #252525;
+    color: #F3F3F3;
 }
 
 .navbar {
