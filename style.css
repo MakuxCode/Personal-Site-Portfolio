@@ -28,3 +28,21 @@ body {
 li {
     list-style: none;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-hero>p {
+    width: 460px;
+}
+
+.left-hero>h1 {
+    width: 530px;
+    font-size: 67px;
+    margin: 10px 0px;
+    margin-left: -3px;
+    color: #E9DCBE;
+}
