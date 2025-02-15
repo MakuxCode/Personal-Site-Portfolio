@@ -3,6 +3,24 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 50px 200px;
     box-sizing: border-box;
+    height: 100vh;
+    font-family: Outfit;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-nav>ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
 }
