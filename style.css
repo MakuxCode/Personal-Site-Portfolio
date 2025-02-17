@@ -99,7 +99,7 @@ li {
 }
 
 /* Skills */
-.skills-grid {
+.skills-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -121,9 +121,6 @@ li {
 .git {
     grid-row: span 2;
 }
-
-
-
 
 @media (min-width: 1024px) and (max-width: 1339px) {
     body {
