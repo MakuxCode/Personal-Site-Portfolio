@@ -134,6 +134,12 @@ li {
     display: flex;
 }
 
+/* Footer */
+.footer {
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
 @media (min-width: 1024px) and (max-width: 1339px) {
     body {
         margin: 50px 100px;
