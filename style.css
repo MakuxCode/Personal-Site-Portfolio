@@ -17,6 +17,10 @@ h1 {
     font-size: 67px;
 }
 
+h1>span {
+    color: #E9DCBE;
+}
+
 /* Navigation */
 
 .navbar {
@@ -67,10 +71,6 @@ li {
 
 .about-me {
     margin: 200px 0px;
-}
-
-.about-me>h1>span {
-    color: #E9DCBE;
 }
 
 .about-me-container {
