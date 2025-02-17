@@ -122,6 +122,18 @@ li {
     grid-row: span 2;
 }
 
+/* Projects */
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 450px;
+}
+
+.project .description {
+    display: flex;
+}
+
 @media (min-width: 1024px) and (max-width: 1339px) {
     body {
         margin: 50px 100px;
