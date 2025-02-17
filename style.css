@@ -59,6 +59,39 @@ li {
     border: 20px solid #C4C4C4;
 }
 
+.about-me {
+    margin: 200px 0px;
+}
+
+.about-me>h1>span {
+    color: #E9DCBE;
+}
+
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.education {
+    background-color: #8D8A811A;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.education>p>span {
+    color: #E9DCBE;
+}
+
+.education>p {
+    font-family: Poppins;
+    margin: 0;
+}
+
+.edducation>h1 {
+    margin: 0;
+}
+
 @media (min-width: 1024px) and (max-width: 1339px) {
     body {
         margin: 50px 100px;
