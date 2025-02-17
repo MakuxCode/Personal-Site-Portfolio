@@ -94,7 +94,7 @@ li {
     margin: 0;
 }
 
-.edducation>h1 {
+.education>h1 {
     margin: 0;
 }
 
@@ -153,5 +153,17 @@ li {
         width: auto;
         border-radius: 50%;
         border: 10px solid #C4C4C4;
+    }
+
+    .about-me {
+        margin: 100px 0px;
+    }
+
+    .about-me-container {
+        flex-direction: column;
+    }
+
+    .about-me>h1 {
+        font-size: 46px;
     }
 }
