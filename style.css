@@ -144,6 +144,19 @@ li {
     background: linear-gradient(to bottom, #F3F3F3, #8D8D8D)
 }
 
+.front-end-skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.front-end-skills-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .skills img {
     width: 120px;
     height: 120px;
@@ -200,10 +213,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: #8E8B82;
-    border-radius: 20px;
-    padding: 20px;
+    align-items: flex-end;
 }
 
 /* Contact */
