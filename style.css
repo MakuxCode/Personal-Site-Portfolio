@@ -137,6 +137,10 @@ li {
     display: flex;
 }
 
+.project>p {
+    font-family: Poppins;
+}
+
 /* Footer */
 .footer {
     margin-top: 200px;
