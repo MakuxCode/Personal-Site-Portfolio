@@ -77,6 +77,7 @@ li {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    margin-top: 50px;
 }
 
 .education {
@@ -105,6 +106,7 @@ li {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 20px;
     height: 480px;
+    margin: 50px 0px;
 }
 
 .front-end {
@@ -128,6 +130,7 @@ li {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     height: 450px;
+    margin: 100px 0px;
 }
 
 .project .description {
