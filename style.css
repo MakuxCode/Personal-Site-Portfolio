@@ -180,6 +180,9 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #8E8B82;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 /* Footer */
