@@ -189,6 +189,21 @@ li {
     padding: 20px;
 }
 
+/* Contact */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px;
+}
+
+.contact-images {
+    width: auto;
+    height: 180px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
 /* Footer */
 .footer {
     margin-top: 200px;
