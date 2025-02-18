@@ -71,7 +71,7 @@ li {
 /* About me */
 
 .about-me {
-    margin: 200px 0px;
+    margin: 200px 0px 150px 0px;
 }
 
 .about-me-container {
@@ -101,6 +101,10 @@ li {
 }
 
 /* Skills */
+.skills-section {
+    margin-bottom: 150px;
+}
+
 .skills-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
