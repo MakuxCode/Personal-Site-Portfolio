@@ -127,7 +127,7 @@ li {
 
 .other-skills {
     grid-column: span 2;
-    grid-row: span 2;
+    grid-row: span 3;
     background-color: #F3F3F3;
     color: #252525;
     font-size: 56px;
@@ -139,8 +139,12 @@ li {
 
 .figma,
 .git {
-    grid-row: span 2;
     background: linear-gradient(to bottom, #F3F3F3, #8D8D8D)
+}
+
+.skills img {
+    width: 120px;
+    height: 120px;
 }
 
 .programming {
