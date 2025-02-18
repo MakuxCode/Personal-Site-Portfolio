@@ -145,14 +145,40 @@ li {
     grid-template-rows: 1fr;
     height: 450px;
     margin: 100px 0px;
+    gap: 50px;
 }
 
-.project .description {
+.project.description {
+    padding: 20px 0px;
     display: flex;
+    flex-direction: column;
 }
 
 .project>p {
     font-family: Poppins;
+    width: 380px;
+}
+
+.project button {
+    width: 180px;
+    background-color: #252525;
+    color: #F3F3F3;
+    border: 2px solid #8E8B82;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.project img {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.project.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Footer */
